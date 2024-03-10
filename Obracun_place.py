@@ -13,5 +13,13 @@ userName_label.pack()
 userName = tk.Entry(root, width=20)
 userName.pack(pady=2)
 
+password_label = tk.Label(root, text='Password', font='Times 14', bg='DarkSeaGreen1')
+password_label.pack(pady=(10, 2))
+password = tk.Entry(root, width=20)
+password.pack(pady=2)
+
+button = tk.Button(root, text='Log in', font='Times 12', width=17, bg='LightGray')
+button.pack(pady=(10,2))
+
 
 root.mainloop()
